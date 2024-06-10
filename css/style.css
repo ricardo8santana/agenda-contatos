@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.containerLastname {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.comboBox{
+    width: 30%;
+    padding-left: 0.5rem;
+}
+
+.btnSalvarCancelar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btnCancelar,.btnSalvar, .btnEditar, .btnExcluir {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btnCancelar{
+    margin-right: 1rem;
+    background-color: #ccc;
+}
+
+.btnSalvar {
+    background-color: #1154e4;
+    color: #f9f9f9;
+}
+
+.btnEditar{
+background-color: #f5ac00;
+height: 30px!important;
+width: 40px!important;
+font-weight: bolder!important;
+}
+
+.btnExcluir{
+    background-color: #8b0000;
+    color: #f9f9f9;
+    height: 30px!important;
+    width: 40px!important;
+}
+
+#idpesquisa{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.lista{
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0, 0.4);
+}
+.agenda{
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+}
+.imagem{
+    text-align: center;
+}
+.contato{
+    flex: 1;
+}
+.imgIco{
+    color: #1154e4;
+    font-size: 20px;
+    margin-right: 5px;
+    width: 4%;
+}
+table{
+    width: 100%;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+tr:first-child{
+    background-color: #3e65f9;
+    color: #f9f9f9;
+    text-align: center;
+}
+tr td:last-child, tr td:nth-last-child(2){
+    text-align: center;
+}
